@@ -1,0 +1,20 @@
+.navb{
+    background-color: #4ac54a;
+    overflow: hidden;
+}
+.navb a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 19px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navb a:hover{
+    background-color: #69f0ae;
+    color: black;
+}
+.navb a.active {
+    background-color: #f2f2f2;
+    color: darkslategrey;
+}
