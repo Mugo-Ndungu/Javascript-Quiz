@@ -10,3 +10,17 @@ var ansEight = $("input[name='ques8']:checked").val();
 var ansNine = $("input[name='ques9']:checked").val();
 var ansTen = $("input[name='ques10']:checked").val();
 var correctScore = 0;
+
+
+function checkAns() {
+  if (ansOne == "") {correctScore++;}
+  if (anstwo == "") {correctScore++;}
+  if (ansThree == "") {correctScore++;}
+  if (ansFour == "") {correctScore++;}
+  if (ansFive == "") {correctScore++;}
+  if (ansSix == "") {correctScore++;}
+  if (ansSeven == "") {correctScore++;}
+  if (ansEight == "") {correctScore++;}
+  if (ansNine == "") {correctScore++;}
+  if (ansTen == "") {correctScore++;}
+}
