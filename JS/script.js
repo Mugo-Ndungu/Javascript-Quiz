@@ -11,6 +11,16 @@ var ansNine = $("input[name='ques9']:checked").val();
 var ansTen = $("input[name='ques10']:checked").val();
 var correctScore = 0;
 
+$(document).ready(function() {
+  $('body').particleground({
+    dotColor: '#5cbdaa',
+    lineColor: '#5cbdaa'
+  });
+  $('.intro').css({
+    'margin-top': -($('.intro').height() / 2)
+  });
+});
+
 
 function checkAns() {
   if (ansOne == "") {correctScore++;}
