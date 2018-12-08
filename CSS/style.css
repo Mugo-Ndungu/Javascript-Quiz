@@ -1,3 +1,6 @@
+body{
+    background-color: #c8e6c9;
+}
 .navb{
     background-color: #4ac54a;
     overflow: hidden;
@@ -17,4 +20,17 @@
 .navb a.active {
     background-color: #f2f2f2;
     color: darkslategrey;
+}
+.hed{
+    text-align: center;
+    color: #4ac54a;
+}
+.bt{
+    border-radius: 12px;
+    border: none;
+    color: black;
+    box-shadow: o 18px 24px 0 rgba(0, 0, 0, 0.24);
+    padding: 8px 24px;
+    width: 134px; 
+    margin: 30px;
 }
