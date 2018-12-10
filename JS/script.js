@@ -1,4 +1,3 @@
-
 var ansOne = $("input[name='ques1']:checked").val();
 var ansTwo = $("input[name='ques2']:checked").val();
 var ansThree = $("input[name='ques3']:checked").val();
@@ -12,25 +11,42 @@ var ansTen = $("input[name='ques10']:checked").val();
 var correctScore = 0;
 
 $(document).ready(function() {
-  $('body').particleground({
+  $('#body').particleground({
     dotColor: '#5cbdaa',
     lineColor: '#5cbdaa'
-  });
-  $('.intro').css({
-    'margin-top': -($('.intro').height() / 2)
   });
 });
 
 
 function checkAns() {
-  if (ansOne == "") {correctScore++;}
-  if (anstwo == "") {correctScore++;}
-  if (ansThree == "") {correctScore++;}
-  if (ansFour == "") {correctScore++;}
-  if (ansFive == "") {correctScore++;}
-  if (ansSix == "") {correctScore++;}
-  if (ansSeven == "") {correctScore++;}
-  if (ansEight == "") {correctScore++;}
-  if (ansNine == "") {correctScore++;}
-  if (ansTen == "") {correctScore++;}
+  if (ansOne == "") {
+    correctScore++;
+  }
+  if (anstwo == "") {
+    correctScore++;
+  }
+  if (ansThree == "") {
+    correctScore++;
+  }
+  if (ansFour == "") {
+    correctScore++;
+  }
+  if (ansFive == "") {
+    correctScore++;
+  }
+  if (ansSix == "") {
+    correctScore++;
+  }
+  if (ansSeven == "") {
+    correctScore++;
+  }
+  if (ansEight == "") {
+    correctScore++;
+  }
+  if (ansNine == "") {
+    correctScore++;
+  }
+  if (ansTen == "") {
+    correctScore++;
+  }
 }
