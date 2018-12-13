@@ -55,52 +55,23 @@
               <input type="radio" name="ques5" id="ques5" value="b">B - join() <br>
               <input type="radio" name="ques5" id="ques5" value="c">C - pop() <br>
               <input type="radio" name="ques5" id="ques5" value="d">D - map() <br>
-
-              <p>6. Which of the following function of String object combines the text of two Strings and returns a new String?</p>
-              <input type="radio" name="ques6" id="ques6" value="a">A - add() <br>
-              <input type="radio" name="ques6" id="ques6" value="b">B - merge() <br>
-              <input type="radio" name="ques6" id="ques6" value="c">C - concat() <br>
-              <input type="radio" name="ques6" id="ques6" value="d">D - append() <br>
-
-              <p>7. Which of the following function of String object returns the primitive value of the specified object?</p>
-              <input type="radio" name="ques7" id="ques7" value="a">A - toLocaleUpperCase() <br>
-              <input type="radio" name="ques7" id="ques7" value="b">B - toUpperCase() <br>
-              <input type="radio" name="ques7" id="ques7" value="c">C - toString() <br>
-              <input type="radio" name="ques7" id="ques7" value="d">D - valueOf() <br>
-
-              <p>8. Which of the following function of String object causes a String to be displayed in fixed-pitch font as if it were in a &lttt&gt tag </p>
-              <input type="radio" name="ques8" id="ques8" value="a">A - fixed() <br>
-              <input type="radio" name="ques8" id="ques8" value="b">B - big() <br>
-              <input type="radio" name="ques8" id="ques8" value="c">C - blink() <br>
-              <input type="radio" name="ques8" id="ques8" value="d">D - bold() <br>
-
-              <p>9. Which of the following function of Array object sorts the elements of an Array?</p>
-              <input type="radio" name="ques9" id="ques9" value="a">A - toSource() <br>
-              <input type="radio" name="ques9" id="ques9" value="b">B - sort() <br>
-              <input type="radio" name="ques9" id="ques9" value="c">C - toString() <br>
-              <input type="radio" name="ques9" id="ques9" value="d">D - unshift() <br>
-
-              <p>10. Which built-in method returns the calling string value converted to uppercase?</p>
-              <input type="radio" name="ques10" id="ques10" value="a">A - toUpperCase() <br>
-              <input type="radio" name="ques10" id="ques10" value="b">B - toUpper() <br>
-              <input type="radio" name="ques10" id="ques10" value="c">C - changeCase(case) <br>
-              <input type="radio" name="ques10" id="ques10" value="d">D - None of the above. <br>
             </form>
-            <button onclick="checkAns()" type="button" class=" bt btn-success">Submit</button>
-          </div>
-
-          <div id="results">
-            <h1>Your Score is:</h1>
-            <h2 id="result"></h2>
-            <button onclick="reset()" type="button" class=" bt btn-success">Retake Test</button>
+            <p id="attempquestions"></p>
+            <button type="button" class=" bt btn-success" id="check">Submit</button>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="container" id="results">
+    <div class="row">
+      <h2 id="result" class="col-md-12 text-center"></h2>
+    </div>
+    <button id="reset" type="button" class=" bt">Retake Test</button>
+  </div>
 
   <script type="text/javascript" src="JS/jquery.js"></script>
-  <!-- <script type="text/javascript" src="JS/particles.js"></script> -->
+
   <script type="text/javascript" src="JS/script.js"></script>
 </body>
 
